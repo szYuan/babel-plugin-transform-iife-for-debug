@@ -1,0 +1,21 @@
+{
+  "name": "babel-plugin-transform-iife-for-debug",
+  "version": "1.1.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "babel test/test.js -o test/test.dist.js"
+  },
+  "keywords": [
+    "babel-plugin"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "jest": "26.6.3",
+    "looks-same": "7.3.0",
+    "miniprogram-automator": "0.10.0"
+  }
+}

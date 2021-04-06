@@ -1,0 +1,11 @@
+{
+    "presets": [],
+    "plugins": [],
+    "env": {
+      "development": {
+        "plugins": [
+          ["transform-iife-for-debug", {"a":1, "b":2}]
+        ]
+      }
+    }
+  }
