@@ -12,14 +12,14 @@ You can easily write debug code in the development environment without having to
 
 Using npm:
 
-```sh
-npm install --save-dev @babel/plugin-transform-iife-for-debug
+```shell
+npm install --save-dev babel-plugin-transform-iife-for-debug
 ```
 
 or using yarn:
 
-```sh
-yarn add @babel/plugin-transform-iife-for-debug --dev
+```shell
+yarn add babel-plugin-transform-iife-for-debug --dev
 ```
 
 ## Usage
@@ -71,8 +71,8 @@ let normalResult = normalNum * 10;
 
 ## Options
 
-```
-Default
+```javascript
+// Default
 {   
     targetFlag: '@IIFE-for-debug',
     enableCondition: () => true,
