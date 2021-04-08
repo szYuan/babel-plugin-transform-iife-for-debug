@@ -1,4 +1,4 @@
-# @babel/plugin-transform-iife-for-debug
+# babel-plugin-transform-iife-for-debug
 
 > Automatically execute debug code in the development environment without affecting production code.
 > 
